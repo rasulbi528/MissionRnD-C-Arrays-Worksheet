@@ -38,7 +38,7 @@ int removeArrayDuplicates(int *Arr, int len)
 				}
 			}
 		}
-		return *Arr;
+		return len;
 	}
 	return -1;
 }
