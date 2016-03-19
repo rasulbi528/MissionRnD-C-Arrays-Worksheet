@@ -37,7 +37,7 @@ struct student ** topKStudents(struct student *students, int len, int K) {
 	}
 
 
-	for (i = 0; i<K; i++){
+	for (i = 0;i<K; i++){
 		p[i] = students[i];
 	}
 	return &p;
